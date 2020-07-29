@@ -17,4 +17,5 @@ public class Saleh {
     private String id;
     private String name;
     private String phoneNUmber;
+    private String address;
 }

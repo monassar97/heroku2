@@ -22,6 +22,6 @@ public class SalehController {
 
     @PostMapping
     public void saveSaleh() {
-        salehRepositoryRDS.save(new Saleh(UUID.randomUUID().toString(), "saleh", "0797402031"));
+        salehRepositoryRDS.save(new Saleh(UUID.randomUUID().toString(), "saleh", "0797402031","zarqa"));
     }
 }
